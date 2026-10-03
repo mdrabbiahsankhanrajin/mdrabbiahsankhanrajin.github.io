@@ -1,0 +1,16 @@
+/* effects layer for the static pages (About + case studies). Everything is opt-in via html.fx-on so no-JS still shows all content. */
+html.fx-on .fx{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(.16,1,.3,1),transform .9s cubic-bezier(.16,1,.3,1);transition-delay:var(--d,0s);will-change:opacity,transform}
+html.fx-on .fx.in{opacity:1;transform:none}
+html.fx-on .fx-stage{opacity:0;transform:scale(.97);clip-path:inset(6% 4% 6% 4% round 1.25rem);transition:opacity 1s cubic-bezier(.16,1,.3,1),transform 1.1s cubic-bezier(.16,1,.3,1),clip-path 1.2s cubic-bezier(.16,1,.3,1)}
+html.fx-on .fx-stage.in{opacity:1;transform:none;clip-path:inset(0 0 0 0 round 1.25rem)}
+.fx-tilt{transition:transform .5s cubic-bezier(.16,1,.3,1);transform-style:preserve-3d}
+.fx-hdr{transition:background .4s,backdrop-filter .4s}
+.fx-hdr.scrolled{background:rgba(18,18,18,.72);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.fx-cursor{position:fixed;left:0;top:0;width:2.6rem;height:2.6rem;margin:-1.3rem 0 0 -1.3rem;border:1px solid rgba(75,227,122,.9);border-radius:50%;pointer-events:none;z-index:9999;opacity:0;transition:opacity .3s,width .35s cubic-bezier(.16,1,.3,1),height .35s cubic-bezier(.16,1,.3,1),margin .35s cubic-bezier(.16,1,.3,1),background .3s}
+.fx-cursor.on{opacity:1}
+.fx-cursor.big{width:4.6rem;height:4.6rem;margin:-2.3rem 0 0 -2.3rem;background:rgba(75,227,122,.18)}
+.fx-cursor-dot{position:fixed;left:0;top:0;width:.35rem;height:.35rem;margin:-.175rem 0 0 -.175rem;background:#4be37a;border-radius:50%;pointer-events:none;z-index:9999;opacity:0}
+.fx-cursor-dot.on{opacity:1}
+@media (hover:none),(pointer:coarse){.fx-cursor,.fx-cursor-dot{display:none}}
+@media (prefers-reduced-motion:reduce){html.fx-on .fx,html.fx-on .fx-stage{opacity:1;transform:none;clip-path:none;transition:none}.fx-cursor,.fx-cursor-dot{display:none}}
+@media (hover:hover) and (pointer:fine){body.fx-cur,body.fx-cur *{cursor:none!important}}

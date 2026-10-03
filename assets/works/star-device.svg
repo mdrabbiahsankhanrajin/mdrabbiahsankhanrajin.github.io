@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#050506"/>
+  <rect x="200" y="200" width="800" height="500" rx="16" fill="none" stroke="#0E9594" stroke-width="6"/>
+  <rect x="232" y="240" width="736" height="420" rx="8" fill="#0a0a0c" stroke="#E85D24" stroke-width="2"/>
+  <rect x="264" y="272" width="300" height="18" rx="4" fill="#EDEDEF" opacity="0.85"/>
+  <rect x="264" y="308" width="200" height="12" rx="4" fill="#8A8F98"/>
+  <g fill="none" stroke="#E85D24" stroke-width="2">
+    <rect x="264" y="352" width="672" height="70" rx="10"/>
+    <rect x="264" y="434" width="672" height="70" rx="10"/>
+    <rect x="264" y="516" width="672" height="70" rx="10"/>
+  </g>
+  <text x="600" y="840" text-anchor="middle" font-family="monospace" font-size="26" fill="#8A8F98">PLACEHOLDER — Star Delivery single-file SPA mockup</text>
+</svg>

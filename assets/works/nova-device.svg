@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#050506"/>
+  <rect x="440" y="80" width="320" height="700" rx="48" fill="none" stroke="#00D9B5" stroke-width="6"/>
+  <rect x="464" y="128" width="272" height="560" rx="8" fill="#0a0a0c" stroke="#6C5CE7" stroke-width="2"/>
+  <circle cx="600" cy="748" r="20" fill="none" stroke="#00D9B5" stroke-width="4"/>
+  <rect x="500" y="180" width="200" height="18" rx="4" fill="#EDEDEF" opacity="0.85"/>
+  <rect x="500" y="216" width="140" height="12" rx="4" fill="#8A8F98"/>
+  <g fill="none" stroke="#6C5CE7" stroke-width="2">
+    <rect x="500" y="260" width="200" height="90" rx="10"/>
+    <rect x="500" y="368" width="200" height="90" rx="10"/>
+    <rect x="500" y="476" width="200" height="90" rx="10"/>
+  </g>
+  <text x="600" y="840" text-anchor="middle" font-family="monospace" font-size="26" fill="#8A8F98">PLACEHOLDER — Nova Expo/React Native device mockup</text>
+</svg>

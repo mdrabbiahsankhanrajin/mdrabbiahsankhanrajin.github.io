@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#0a0a0c"/>
+  <rect x="0" y="0" width="1200" height="72" fill="#E85D24"/>
+  <rect x="48" y="140" width="360" height="24" rx="4" fill="#EDEDEF" opacity="0.9"/>
+  <rect x="48" y="188" width="240" height="16" rx="4" fill="#8A8F98"/>
+  <g fill="none" stroke="#E85D24" stroke-width="2">
+    <rect x="48" y="248" width="336" height="140" rx="12"/>
+    <rect x="416" y="248" width="336" height="140" rx="12"/>
+    <rect x="784" y="248" width="336" height="140" rx="12"/>
+  </g>
+  <rect x="48" y="428" width="1072" height="400" rx="16" fill="none" stroke="#0E9594" stroke-width="2"/>
+  <text x="600" y="640" text-anchor="middle" font-family="monospace" font-size="28" fill="#8A8F98">PLACEHOLDER — Star Delivery merchant UI</text>
+  <text x="600" y="676" text-anchor="middle" font-family="monospace" font-size="18" fill="#8A8F98">awaiting real product screenshot</text>
+</svg>
