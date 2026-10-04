@@ -6,3 +6,4 @@
 - "Meta Pixel" uses the Meta mark; there is no separate Pixel logo in that set.
 - OpenAI: the mark is from Simple Icons release 6.23.0 (CC0 file); newer releases of that set no longer include it. ChatGPT and Codex are OpenAI products and share this mark.
 - All product names and logos are trademarks of their owners and are used here only to name tools I work with.
+- GitHub mark: Simple Icons (CC0), assets/social-github.svg
