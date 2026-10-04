@@ -41,3 +41,4 @@ a{color:inherit}
 .c-notebox{border:1px solid var(--line);border-left:3px solid var(--a);border-radius:.75rem;padding:1rem 1.25rem;background:rgba(255,255,255,.03);max-width:46rem;font-size:1.05rem;line-height:1.5}
 .c-badge{display:inline-block;border:1px solid var(--line);border-radius:99px;padding:.25rem .85rem;font-size:.8rem;letter-spacing:.04em;margin-bottom:1.25rem;color:var(--muted)}
 .c-shots.is-phones{grid-template-columns:repeat(auto-fill,minmax(11rem,1fr))}
+.c-cap{margin:-1.25rem 0 2.5rem;font-size:.85rem;color:var(--muted);font-style:italic}

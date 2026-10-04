@@ -20,7 +20,7 @@ python serve.py        # http://localhost:4173  (clean URLs: /work, /about, /ser
 
 - Email: set to mdrabbiahsankhanrajin@gmail.com (hero CTA, nav, footer contact)
 - Social links: LinkedIn and X in the footer point at `#footer`
-- Canonical/og host: `https://rajinlabs.example` (no og image exists)
+- Canonical/og host: `https://mdrabbiahsankhanrajin.github.io` (no og image exists)
 - Case studies: pages in work/ are generated from ZENITH content/projects.ts; Eryndor is still "Coming soon"
 - Removed until real content exists: client logos, testimonials, showreel, portrait and photos, awards
 
