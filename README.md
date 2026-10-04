@@ -23,3 +23,7 @@ python serve.py        # http://localhost:4173  (clean URLs: /work, /about, /ser
 - Canonical/og host: `https://rajinlabs.example` (no og image exists)
 - Case studies: pages in work/ are generated from ZENITH content/projects.ts; Eryndor is still "Coming soon"
 - Removed until real content exists: client logos, testimonials, showreel, portrait and photos, awards
+
+## Going live
+
+Run `python tools/set-domain.py https://yourdomain.com` once the real domain is known. It replaces the placeholder host in every meta tag, `sitemap.xml` and `robots.txt`. Share previews need that absolute URL to work.
