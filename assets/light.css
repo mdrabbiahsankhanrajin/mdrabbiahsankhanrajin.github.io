@@ -1,0 +1,27 @@
+/* light theme for the static pages (About, case studies, 404); toggled by html[data-theme=light] */
+html[data-theme=light]{--bg:#fcfcfc;--ink:#121212;--muted:rgba(18,18,18,.62);--line:rgba(18,18,18,.14)}
+html[data-theme=light] .c-next:hover,html[data-theme=light] .c-next:focus-visible{background:rgba(18,18,18,.05)}
+html[data-theme=light] .c-notebox{background:rgba(18,18,18,.03)}
+html[data-theme=light] .c-top{background:linear-gradient(var(--bg),transparent)}
+html[data-theme=light] .fx-hdr.scrolled{background:rgba(252,252,252,.78)}
+html[data-theme=light] .ab-herobg{background:linear-gradient(180deg,rgba(252,252,252,.84),#fcfcfc 96%),url(/assets/about-backdrop.jpg) center/cover no-repeat}
+html[data-theme=light] .ab-eyebrow,html[data-theme=light] .ab-stats dd,html[data-theme=light] .ab-sec h2,html[data-theme=light] .ab-time b,html[data-theme=light] .ab-cap{color:rgba(18,18,18,.6)}
+html[data-theme=light] .ab-story li::before{color:rgba(18,18,18,.5)}
+html[data-theme=light] .ab-bio,html[data-theme=light] .ab-card p{color:rgba(18,18,18,.78)}
+html[data-theme=light] .ab-pill{border-color:rgba(18,18,18,.22)}
+html[data-theme=light] .ab-btn{background:#121212;color:#fff}
+html[data-theme=light] .ab-link{color:#121212}
+html[data-theme=light] .ab-stats,html[data-theme=light] .ab-sec,html[data-theme=light] .ab-close,html[data-theme=light] .ab-card,html[data-theme=light] .ab-ph{border-color:rgba(18,18,18,.14)}
+html[data-theme=light] .ab-story li{border-bottom-color:rgba(18,18,18,.1)}
+html[data-theme=light] .ab-card{background:rgba(18,18,18,.03)}
+html[data-theme=light] .ab-card:hover{background:rgba(18,18,18,.06)}
+html[data-theme=light] .ab-time{border-left-color:rgba(18,18,18,.22)}
+html[data-theme=light] .ab-time li::before{background:#121212}
+html[data-theme=light] .st-tabs button{color:#121212;border-color:rgba(18,18,18,.25)}
+html[data-theme=light] .st-tabs button:hover{border-color:rgba(18,18,18,.6)}
+html[data-theme=light] .st-tabs button[aria-pressed="true"]{background:#121212;color:#fff;border-color:#121212}
+html[data-theme=light] .skip-link{background:#121212;color:#fff}
+.th-btn{display:grid;place-items:center;width:2.25rem;height:2.25rem;margin-left:clamp(.9rem,3vw,2rem);border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
+.th-btn:hover{background:var(--line)}
+.th-btn svg{width:1.1rem;height:1.1rem}
+.c-top > .th-btn{margin-left:0}
