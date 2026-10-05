@@ -59,3 +59,7 @@
 .st-tabs button:focus-visible{outline:2px solid #4be37a;outline-offset:2px}
 [class*="toolsGrid"] > [class*="__tool"]{transition:opacity .35s,transform .35s}
 [class*="toolsGrid"] > .st-off{display:none}
+
+/* phones: the section rules above zeroed the side padding, so text touched the screen edge */
+.ab-sec,.ab-close{padding-left:clamp(1rem,4vw,3rem);padding-right:clamp(1rem,4vw,3rem)}
+@media (max-width:760px){.ab-portrait{opacity:.2;right:-22%;height:min(70%,34rem)}}

@@ -42,3 +42,6 @@ a{color:inherit}
 .c-badge{display:inline-block;border:1px solid var(--line);border-radius:99px;padding:.25rem .85rem;font-size:.8rem;letter-spacing:.04em;margin-bottom:1.25rem;color:var(--muted)}
 .c-shots.is-phones{grid-template-columns:repeat(auto-fill,minmax(11rem,1fr))}
 .c-cap{margin:-1.25rem 0 2.5rem;font-size:.85rem;color:var(--muted);font-style:italic}
+
+/* phones: the header row was wider than the screen and the nav sat on top of the logo */
+@media (max-width:560px){.c-top{padding:.75rem 1rem}.c-nav{gap:.85rem;font-size:.88rem;align-items:center}.c-nav a:last-of-type{display:none}.c-nav .th-btn{margin-left:.15rem}}
