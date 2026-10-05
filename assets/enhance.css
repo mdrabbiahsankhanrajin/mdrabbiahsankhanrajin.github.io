@@ -1,0 +1,16 @@
+/* shared polish for the static pages: skip link, scroll progress, screenshot lightbox */
+.skip-link{position:fixed;left:1rem;top:-4rem;z-index:10001;background:#fff;color:#121212;padding:.65rem 1rem;border-radius:.5rem;font:500 .9rem/1 inherit;text-decoration:none;transition:top .2s}
+.skip-link:focus{top:1rem}
+a:focus-visible,button:focus-visible{outline:2px solid #4be37a;outline-offset:3px;border-radius:4px}
+.sp-bar{position:fixed;left:0;top:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,#4be37a,#b8ff6a);z-index:10000;pointer-events:none}
+.c-shots img,.c-stage img{cursor:zoom-in}
+.lb{position:fixed;inset:0;z-index:10002;display:flex;align-items:center;justify-content:center;background:rgba(10,10,12,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);opacity:0;transition:opacity .25s}
+.lb.on{opacity:1}
+.lb figure{margin:0;max-width:min(92vw,1400px);max-height:92vh;display:flex;flex-direction:column;align-items:center;gap:.9rem}
+.lb img{max-width:100%;max-height:80vh;object-fit:contain;border-radius:.75rem;background:#0a0a0c;box-shadow:0 20px 80px rgba(0,0,0,.6);cursor:default}
+.lb figcaption{color:#cfd2d6;font-size:.95rem;text-align:center;max-width:46rem}
+.lb button{position:absolute;display:grid;place-items:center;width:3rem;height:3rem;border-radius:50%;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.08);color:#fff;font-size:1.4rem;line-height:1;cursor:pointer;transition:background .2s}
+.lb button:hover{background:rgba(255,255,255,.2)}
+.lb .lb-x{top:1.25rem;right:1.25rem}.lb .lb-p{left:1.25rem;top:50%;margin-top:-1.5rem}.lb .lb-n{right:1.25rem;top:50%;margin-top:-1.5rem}
+body.lb-open{overflow:hidden}
+@media (prefers-reduced-motion:reduce){.lb,.skip-link{transition:none}.sp-bar{display:none}}
