@@ -1,6 +1,6 @@
 (function(){
   var KEY = 'accent', root = document.documentElement;
-  var OPTS = [['green', 'Green', 'linear-gradient(135deg,#0ae448,#a9fc83)'], ['indigo', 'Indigo', 'linear-gradient(135deg,#4f46e5,#22d3ee)'], ['amber', 'Amber', 'linear-gradient(135deg,#ff6a13,#ffe08a)'], ['gold', 'Emerald', 'linear-gradient(135deg,#0f8f6a,#f2c14e)']];
+  var OPTS = [['green', 'Green', 'linear-gradient(135deg,#0ae448,#a9fc83)'], ['violet', 'Violet smoke', 'linear-gradient(135deg,#7b61ff,#0e1020)'], ['indigo', 'Indigo', 'linear-gradient(135deg,#4f46e5,#22d3ee)'], ['amber', 'Amber', 'linear-gradient(135deg,#ff6a13,#ffe08a)'], ['gold', 'Emerald', 'linear-gradient(135deg,#0f8f6a,#f2c14e)']];
   var q = new URLSearchParams(location.search), cur = null;
   try { if (q.get('c')) localStorage.setItem(KEY, q.get('c')); cur = localStorage.getItem(KEY); } catch(e){ cur = q.get('c'); }
   var l = document.createElement('link'); l.rel = 'stylesheet'; l.href = '/assets/accent.css'; document.head.appendChild(l);

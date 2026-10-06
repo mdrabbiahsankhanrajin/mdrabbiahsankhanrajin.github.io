@@ -1,4 +1,5 @@
 /* accent palettes. Default is the original green; html[data-accent] switches the hero shader, gradients and UI accents. */
+html[data-accent="violet"]{--hue:150deg;--acc:#9b8cff;--acc-rgb:155,140,255;--green:#8f7dff;--green-grad:linear-gradient(114.41deg,#5b3df5 0%,#7b61ff 50%,#c4b8ff 100%)}
 html[data-accent="indigo"]{--hue:125deg;--acc:#8ea2ff;--acc-rgb:142,162,255;--green:#8a9bff;--green-grad:linear-gradient(114.41deg,#4f46e5 0%,#6f86ff 50%,#22d3ee 100%)}
 html[data-accent="amber"]{--hue:275deg;--acc:#ffb347;--acc-rgb:255,179,71;--green:#ffb347;--green-grad:linear-gradient(114.41deg,#ff6a13 0%,#ffa73a 50%,#ffe08a 100%)}
 html[data-accent="gold"]{--hue:22deg;--acc:#f2c14e;--acc-rgb:242,193,78;--green:#2fd3a0;--green-grad:linear-gradient(114.41deg,#0f8f6a 0%,#2fd3a0 55%,#f2c14e 100%)}
