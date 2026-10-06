@@ -1,0 +1,9 @@
+/* accent palettes. Default is the original green; html[data-accent] switches the hero shader, gradients and UI accents. */
+html[data-accent="indigo"]{--hue:125deg;--acc:#8ea2ff;--acc-rgb:142,162,255;--green:#8a9bff;--green-grad:linear-gradient(114.41deg,#4f46e5 0%,#6f86ff 50%,#22d3ee 100%)}
+html[data-accent="amber"]{--hue:275deg;--acc:#ffb347;--acc-rgb:255,179,71;--green:#ffb347;--green-grad:linear-gradient(114.41deg,#ff6a13 0%,#ffa73a 50%,#ffe08a 100%)}
+html[data-accent="gold"]{--hue:22deg;--acc:#f2c14e;--acc-rgb:242,193,78;--green:#2fd3a0;--green-grad:linear-gradient(114.41deg,#0f8f6a 0%,#2fd3a0 55%,#f2c14e 100%)}
+img[src*="cursor-ring-green"]{filter:hue-rotate(var(--hue,0deg))}
+.ac-pick{position:fixed;left:50%;bottom:5.5rem;transform:translateX(-50%);z-index:10050;display:flex;gap:.4rem;padding:.4rem;border-radius:99px;background:rgba(18,18,18,.88);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.18);font:400 .8rem/1 system-ui,sans-serif}
+.ac-pick button{display:flex;align-items:center;gap:.4rem;border:0;border-radius:99px;padding:.5rem .8rem;background:transparent;color:#fff;cursor:pointer;font:inherit}
+.ac-pick button[aria-pressed="true"]{background:#fff;color:#121212}
+.ac-pick i{width:.7rem;height:.7rem;border-radius:50%;display:block}

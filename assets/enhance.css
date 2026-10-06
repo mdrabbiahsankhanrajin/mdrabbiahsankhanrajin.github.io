@@ -1,8 +1,8 @@
 /* shared polish for the static pages: skip link, scroll progress, screenshot lightbox */
 .skip-link{position:fixed;left:1rem;top:-4rem;z-index:10001;background:#fff;color:#121212;padding:.65rem 1rem;border-radius:.5rem;font:500 .9rem/1 inherit;text-decoration:none;transition:top .2s}
 .skip-link:focus{top:1rem}
-a:focus-visible,button:focus-visible{outline:2px solid #4be37a;outline-offset:3px;border-radius:4px}
-.sp-bar{position:fixed;left:0;top:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,#4be37a,#b8ff6a);z-index:10000;pointer-events:none}
+a:focus-visible,button:focus-visible{outline:2px solid var(--acc,#4be37a);outline-offset:3px;border-radius:4px}
+.sp-bar{position:fixed;left:0;top:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,var(--acc,#4be37a),#b8ff6a);z-index:10000;pointer-events:none}
 .c-shots img,.c-stage img{cursor:zoom-in}
 .lb{position:fixed;inset:0;z-index:10002;display:flex;align-items:center;justify-content:center;background:rgba(10,10,12,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);opacity:0;transition:opacity .25s}
 .lb.on{opacity:1}
